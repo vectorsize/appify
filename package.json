@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/vectorsize/appify",
   "devDependencies": {
-    "babel": "^5.8.23"
+    "babel": "^5.8.23",
+    "object-assign": "^4.0.1"
   }
 }
