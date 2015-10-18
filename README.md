@@ -6,7 +6,7 @@ _ported from http://git.abackstrom.com/appify.git_
 
 # Installation
 
-`npm install -g vectorsize/appify`
+`$ npm install -g vectorsize/appify`
 
 ## Default usage
 
@@ -21,7 +21,7 @@ If there is an icon file called `main.icns` the app will be bundled with that ic
 
 The script looks for a `package.json` file in the specified path and the default options are overwritten.
 
-`appify .`
+`$ appify .`
 
 The default `package.json` looks like this:
 
@@ -34,4 +34,4 @@ The default `package.json` looks like this:
 }
 ```
 
-This means that you can specify a version for your Application bundle, a valid `icons` resource and a different name.
+This means that you can specify a version for your Application bundle, a valid `icns` resource and a different name.
