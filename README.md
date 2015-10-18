@@ -2,6 +2,8 @@
 
 Command line that compiles a script into an OSX application bundle.
 
+_ported from http://git.abackstrom.com/appify.git_
+
 # Installation
 
 `npm install -g vectorsize/appify`

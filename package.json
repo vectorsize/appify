@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "appify": "./bin/appify",
+    "appify": "./bin/appify"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/vectorsize/appify",
   "devDependencies": {
-    "object-assign": "^4.0.1"
+    "babel": "^5.8.23"
   }
 }
