@@ -12,7 +12,7 @@ _ported from http://git.abackstrom.com/appify.git_
 
 To compile using the defaults simply type
 
-`appify ScriptName[.sh]`
+`$ appify ScriptName`
 
 This will create an `ScriptName.app` next to your `ScriptName`
 If there is an icon file called `main.icns` the app will be bundled with that icon. _please note that the icon must be a valid OSX `icns` resource_
@@ -34,4 +34,4 @@ The default `package.json` looks like this:
 }
 ```
 
-This means that you can specify a version for your Application bundle, a valid `icns` resource and a different name.
+This means that you can also specify a version for your Application bundle, a different `icns` resource and a different application name.
