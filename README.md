@@ -12,7 +12,7 @@ _ported from http://git.abackstrom.com/appify.git_
 
 To compile using the defaults simply type
 
-`npm appify ScriptName[.sh]`
+`appify ScriptName[.sh]`
 
 This will create an `ScriptName.app` next to your `ScriptName`
 If there is an icon file called `main.icns` the app will be bundled with that icon. _please note that the icon must be a valid OSX `icns` resource_
@@ -21,7 +21,7 @@ If there is an icon file called `main.icns` the app will be bundled with that ic
 
 The script looks for a `package.json` file in the specified path and the default options are overwritten.
 
-`npm appify .`
+`appify .`
 
 The default `package.json` looks like this:
 
