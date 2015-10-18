@@ -48,6 +48,7 @@ const src = args[0].replace('.sh', '')
 const srcPath = join(CWD, src)
 const optsPath = join(srcPath, 'package.json')
 
+// @TODO: make this test if it's a directory instead of .
 if(src === '.' && !fs.existsSync(optsPath)) {
   die('\nNOTE: You must specify a source for your app if a package.json file is not present')
 }

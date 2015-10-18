@@ -41,6 +41,7 @@ var src = args[0].replace('.sh', '');
 var srcPath = (0, _path2.join)(CWD, src);
 var optsPath = (0, _path2.join)(srcPath, 'package.json');
 
+// @TODO: make this test if it's a directory instead of .
 if (src === '.' && !_fs2['default'].existsSync(optsPath)) {
   die('\nNOTE: You must specify a source for your app if a package.json file is not present');
 }
