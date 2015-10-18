@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var stat = path.parse(__filename)
+require(path.join(stat.dir, '..', stat.name))
