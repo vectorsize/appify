@@ -27,10 +27,10 @@ The default `package.json` looks like this:
 
 ```json
 {
-  "name": `${ScriptName}`,
+  "name": "#{ScriptName}",
   "version": "1.0.0",
   "icon": "main.icns",
-  "main": `${ScriptName}`
+  "main": "#{ScriptName}"
 }
 ```
 
